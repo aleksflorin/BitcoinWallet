@@ -14,6 +14,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.9" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="NBitcoin" Version="5.0.65" />
+    <PackageReference Include="QBitNinja.Client" Version="1.0.3.52" />
   </ItemGroup>
 
 </Project>

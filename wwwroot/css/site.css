@@ -106,7 +106,7 @@ button.nav-link.btn.btn-link.text-dark {
     color: white !Important;
     font-size: small;
 }
-i.fab.fa-bitcoin, i.fa-clock, i.fa-wallet {
+i.fab.fa-bitcoin, i.fa-clock, i.fa-wallet, i.fa-copy {
     color: var(--main-orange);
     padding: 2px 5px;
     transform: rotate(-18deg);
@@ -121,4 +121,88 @@ iframe .dark {
 .card-btc-body, .card-btc-header{
     padding:10px;
     width:100%;
+}
+
+
+.btn-green {
+    opacity: 0.8;
+    background: #19b99b;
+}
+.btn-purple {
+    opacity: 0.8;
+    background: #a686ce;
+}
+.btn-blue {
+    opacity: 0.8;
+    background: #00c4ff;
+}
+.btn-pink {
+    background: #fd5c9f;
+    opacity: 0.8;
+}
+.btn-green:hover {
+    opacity:1;
+}
+
+.btn-purple:hover {
+    opacity: 1;
+}
+
+.btn-blue:hover {
+    opacity: 1;
+}
+
+.btn-pink:hover {
+    opacity: 1;
+}
+
+.btn-hp{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    cursor:pointer;
+}
+
+.btn-disabled, .btn-disabled:hover{
+    cursor:none!important;
+    opacity:0.3;
+}
+.modal-content {
+    background: #161616;
+}
+.modal-footer {
+    border-top: 1px solid #803500;
+}
+.modal-content {
+    background: #161616;
+    border: 6px solid var(--main-orange);
+    padding: 10px;
+}
+
+button.btn.btn-primary:hover{
+    background:var(--main-orange)!important;
+    opacity:1;
+}button.btn.btn-primary{
+    background:var(--main-orange)!important;
+    opacity:0.8;
+}
+.wallet-adress {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+hr {
+    background: var(--main-orange);
+    opacity: 0.8;
+}
+
+#snoAlertBox {
+    position: absolute;
+    z-index: 1400;
+    top: 2%;
+    right: 4%;
+    margin: 0px auto;
+    text-align: center;
+    display: none;
 }
